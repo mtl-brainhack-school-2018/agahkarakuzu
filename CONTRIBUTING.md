@@ -1,18 +1,18 @@
 # I need help for 
 
-## Boutiques
+## i) Boutiques
 
 I have zero Boutiques experience. Any help is highly appreciated. 
 
-## BIDS
+## ii) BIDS
 
 If you have experience on converting raw data to BIDS and writing a BIDS proposal I'd be happy to hear your suggestions! 
 
-## PSOM and/or nipype
+## iii) PSOM and/or nipype
 
 This will be the first workflow that I am going to write. My case study will be fitting for MTsat, starting from the dicom images.
 
-# I can help with 
+# I can help you with 
 
 - Writing a Dockerfile
 - Creating a Jupyter Notebook
