@@ -51,7 +51,5 @@ This will be mainly creating Boutiques descriptors and creating a Singularity co
 *** 
 ##  3) A Workflow Example
 
-[PSOM](https://github.com/SIMEXP/psom) will be the start point. If I can achieve 1.2, why not nipype? 
-
-If you have qMR data to fit (I know there are people), let's work together! 
+[PSOM](https://github.com/SIMEXP/psom) will be the start point. If I can achieve 1.2, I will give nipype a stab.  
 
