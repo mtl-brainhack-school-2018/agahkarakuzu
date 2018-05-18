@@ -2,7 +2,7 @@
 
 > [qMRLab](https://github.com/neuropoly/qMRLab) is an open-source software for quantitative MR image analysis. It is designed to bring all your quantitative MRI needs under one umbrella. You can watch our video below to find out more about qMRLab:
 
-[<img src="qMRLab-intro.png" width="1000">](https://www.youtube.com/watch?v=-yrbtCYDorI)
+[<img src="https://github.com/neuropoly/qMRLab/blob/master/qMRLab-intro.png" width="1000">](https://www.youtube.com/watch?v=-yrbtCYDorI)
 
 ## My BrainHack School goals
 
