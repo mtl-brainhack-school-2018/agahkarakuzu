@@ -1,12 +1,12 @@
 {
-    "command-line": "run_mt_sat_batch.sh /Applications/MATLAB/MATLAB_Runtime/v90 [PARAM1] [PARAM2] [FLAG1] [OUTPUT1]",
+    "command-line": "/tmp/agahkarakuzu-master/R2016b_lnx/Standalone/for_redistribution_files_only/run_mt_sat_batch.sh /usr/local/MATLAB/MATLAB_Runtime/v91 [PARAM1] [PARAM2] [OUTPUT1]",
     "container-image": {
-        "image": "user/image",
-        "index": "docker://",
-        "type": "singularity"
+        "image": "agahkarakuzu/qmr2016b",
+        "index": "index.docker.io",
+        "type": "docker"
     },
     "description": "tool description",
-    
+
 
     "inputs": [
         {
@@ -19,19 +19,12 @@
         {
             "id": "param2",
             "name": "The second parameter",
-            "optional": true,
+            "optional": false,
             "type": "File",
 
             "value-key": "[PARAM2]"
-        },
-        {
-            "command-line-flag": "-f",
-            "id": "flag1",
-            "name": "The first flag",
-            "optional": true,
-            "type": "Flag",
-            "value-key": "[FLAG1]"
         }
+
     ],
     "name": "tool name",
     "output-files": [
@@ -39,7 +32,7 @@
             "id": "output1",
             "name": "The first output",
             "optional": false,
-            "path-template": "[PARAM1]/FitResults.mat",
+            "path-template": "[PARAM1]/",
             "path-template-stripped-extensions": [
                 ".log"
             ],
