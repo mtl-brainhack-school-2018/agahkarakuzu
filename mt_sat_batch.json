@@ -1,0 +1,54 @@
+{
+    "command-line": "/home/agahkarakuzu/R2016b_lnx/Standalone/for_redistribution_files_only/run_mt_sat_batch.sh /usr/local/MATLAB/MATLAB_Runtime/v91 [PARAM1] [PARAM2] [OUTPUT1]",
+    "container-image": {
+        "image": "agahkarakuzu/qmr2016b",
+        "index": "index.docker.io",
+        "type": "docker"
+    },
+    "description": "qMRLab/Magnetization Transfer Saturation",
+
+
+    "inputs": [
+        {
+            "id": "param1",
+            "name": "The directory that contains data",
+            "optional": false,
+            "type": "File",
+            "value-key": "[PARAM1]"
+        },
+        {
+            "id": "param2",
+            "name": "The JSON description for input files & params",
+            "optional": false,
+            "type": "File",
+
+            "value-key": "[PARAM2]"
+        }
+
+    ],
+    "name": "MTsat",
+    "output-files": [
+        {
+            "id": "output1",
+            "name": "FitResults.mat",
+            "optional": false,
+            "path-template": "[PARAM1]/",
+            "path-template-stripped-extensions": [
+                ".log"
+            ],
+            "value-key": "[OUTPUT1]"
+        }
+    ],
+    "schema-version": "0.5",
+    "suggested-resources": {
+        "cpu-cores": 1,
+        "ram": 1,
+        "walltime-estimate": 60
+    },
+    "tags": {
+        "foo": "bar",
+        "purpose": "testing",
+        "status": "example"
+    },
+    "tool-version": "v0.1.0"
+}
